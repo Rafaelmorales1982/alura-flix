@@ -1,0 +1,69 @@
+<!DOCTYPE html><!--Tipo documento versão 5-->
+<html lang="pt-br"><!--Iniciando a estrutura html e o lang idioma português brasil-->
+
+<head><!--tag cabeça onde fica nossa configuração da página-->
+    <meta charset="UTF-8"><!--acentos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Tela display-->
+    <link rel="stylesheet" href="./style.css"><!--tag fazendo a comunicação do arquivo externo estyle.css-->
+    <title>Catálogo de Vídeos</title><!--tag título-->
+</head>
+
+<body><!--tag corpo da página onde colocamos as tags para exibir na página-->
+    <!--Cabeçalho-->
+    <header><!--Cabeçalho identifica o topo da página-->
+        <h1>ALURAFLIX</h1>
+    </header>
+    <section class="chamada"><!--tag seção para dividir em seções os contéudo-->
+        <div class="chamada-texto"><!--tag divisão para dividir os conteúdos-->
+            <h1>ATRAVÉS DO ARANHAVERSO </h1><!--tag título da página-->
+            <p>#Homem-Aranha</p><!--tag parágrafo-->
+        </div>
+
+        <div>
+            <!--tag para inclui outro arquivo html para dentro da nossa página-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=O-xRyefJGwWo07hU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!--Uma nova seção para as imagens dos vídeos-->
+    <section class="categoria">
+        <h2>Filmes e séries</h2><!--Título-->
+            <div class="categoria-videos">
+                <!--Vídeo-->
+                <a href="https://www.youtube.com/watch?v=c3y7637qeqI"><!--a arcora cria link externa-->
+                    <!--tag img adiciona imagem na página-->
+                    <img src="https://img.youtube.com/vi/c3y7637qeqI/maxresdefault.jpg" alt="">
+                </a>
+
+                <!--Vídeo-->
+                <a href="https://www.youtube.com/watch?v=LdBSmS2ogSE"><!--a arcora cria link externa-->
+                    <!--tag img adiciona imagem na página-->
+                    <img src="https://img.youtube.com/vi/LdBSmS2ogSE/maxresdefault.jpg" alt="">
+                </a>
+
+                <!--Vídeo-->
+                <a href="https://www.youtube.com/watch?v=WK2DYp9vK30"><!--a arcora cria link externa-->
+                    <!--tag img adiciona imagem na página-->
+                    <img src="https://img.youtube.com/vi/WK2DYp9vK30/maxresdefault.jpg" alt="">
+                </a>
+
+                <!--Vídeo-->
+                <a href="https://www.youtube.com/watch?v=hthsKJXlYB8"><!--a arcora cria link externa-->
+                    <!--tag img adiciona imagem na página-->
+                    <img src="https://img.youtube.com/vi/hthsKJXlYB8/maxresdefault.jpg" alt="">
+                </a>
+
+                <!--Vídeo-->
+                <a href="https://www.youtube.com/watch?v=0hlTKUltcSM"><!--a arcora cria link externa-->
+                    <!--tag img adiciona imagem na página-->
+                    <img src="https://img.youtube.com/vi/0hlTKUltcSM/maxresdefault.jpg" alt="">
+                </a>
+            </div>
+    </section>
+</body><!--tag de fechamento do corpo-->
+
+</html><!--tag de fechamento da estrutura html-->

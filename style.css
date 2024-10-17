@@ -1,0 +1,72 @@
+/* 1°*/
+body {
+  background-color: black; /*cor de fundo*/
+  color: white; /*cor do texto */
+  margin-bottom: 100px;
+}
+
+/* 2°*/
+header {
+  /*rgb = red, green e blue*/
+  border-bottom: 4px solid rgb(42, 122, 228); /*cria uma borda com a cor azul*/
+  padding: 20px; /*espaçamento interno*/
+  font-size: 32px; /*tamanho da fonte*/
+  color: rgb(42, 122, 228); /*cor do texto*/
+}
+
+/* 3°*/
+.chamada {
+  background-color: rgb(184, 156, 213);
+  padding-bottom: 80px; /*espaçamento interno inferior*/
+  padding-top: 80px; /*espaçamento interno superior*/
+  display: flex; /*deixando a seção flexivel colocando os elemento lado a lado*/
+  justify-content: center; /*alinhando horizontalmente no centro */
+}
+
+/*4°*/
+.chamada-texto {
+  margin-right: 5%; /*espaçamento externo do elemento*/
+}
+
+/*5°*/
+h1 {
+  font-size: 40px; /*tamanho fonte*/
+}
+
+/*6°*/
+
+p {
+  font-size: 20px; /*tamanho fonte*/
+}
+
+/*7°*/
+img {
+  height: 200px; /*altura*/
+}
+
+/*8°*/
+.categoria-videos {
+  display: flex; /*colocando os elemento lado a lado*/
+  overflow-x: auto; /*cria scrools rolar os vídeos sem estourar a página*/
+  gap: 10px; /*criando espaço nas imagens*/
+}
+
+/*9°*/
+.categoria {
+  padding-left: 20px; /*espaçamento esquerdo */
+  padding-right: 20px; /*espaçamento a direita*/
+  margin-top: 50px;
+}
+
+/*10°*/
+.categoria-videos img {
+  opacity: 0.5; /*deixando as imagens mais transparente*/
+}
+.categoria-videos img:hover {
+  opacity: 1;
+  border: 4px solid pink;
+}
+
+.categoria h2 {
+  color: rgb(42, 122, 228); /*cor do texto*/
+}
